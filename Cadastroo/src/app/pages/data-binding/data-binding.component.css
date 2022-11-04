@@ -1,0 +1,41 @@
+p, select {
+  font-size: 16px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+select {
+  margin-bottom: 1rem;
+}
+
+.back {
+  width: 40%;
+  height: 80px;
+  border-radius: 100px;
+  background-color: #2D3142;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 29%;
+  margin-right: 29%;
+  margin-bottom: 2%;
+  color: #ffffff;
+}
+
+.title {
+  position: absolute;
+  margin-left: 6%;
+  margin-top: 1%;
+}
+
+.alert {
+  width: 100%;
+  padding: .75rem 1.25rem;
+  background-color: #FFF;
+  color: #000;
+  font-size: 25px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}

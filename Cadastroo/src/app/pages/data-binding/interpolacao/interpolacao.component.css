@@ -1,0 +1,45 @@
+.televisor {
+    background-color: #7a7881;
+    height: 10%;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 25%;
+    color: #ffffff;
+}
+
+.exibidor {
+    margin-top: 0.5%;
+    background-color: rgb(175, 175, 175);
+    border-radius: 10px;
+    color: #2D3142;
+}
+
+.divisor {
+    border-radius: 10px;
+    height: 0.5%;
+    width: 80%;
+    margin-bottom: -100%;
+    margin-left: 10%;
+    background-color: #DB2B39;
+    position: absolute;
+}
+
+.input {
+    border-color: #2D3142;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 45%;
+    margin-right: 45%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.input:hover  {
+    background-color: rgb(192, 192, 192);
+    transition: 1s;
+    -webkit-box-shadow: 9px 7px 5px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(0, 0, 0, 0.77);
+    box-shadow: 9px 7px 5px rgba(43, 43, 43, 0.77);
+}

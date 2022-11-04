@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1 class="title">Exibidor De Cadastrados</h1>
+    <div class="corpo" id="cadastros">
+        <table class="tabela" style="color: black;" border="1">
+            <thead class="title1">
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Estado</th>
+                <th>Cidade</th>
+                <th>Bairro</th>
+                <th>Idade</th>
+                <th>Gênero</th>
+                <th>Imagem</th>
+            </thead>
+            <tbody *ngFor="let pessoa of pessoas" >
+                <td>{{pessoa.nome}}</td>
+                <td>{{pessoa.email}}</td>
+                <td>{{pessoa.estado}}</td>
+                <td>{{pessoa.cidade}}</td>
+                <td>{{pessoa.bairro}}</td>
+                <td>{{pessoa.idade}}</td> 
+                <td>{{pessoa.genero}}</td>
+                <td><img src="{{pessoa.imagem}}" width="50" height="50"></td>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

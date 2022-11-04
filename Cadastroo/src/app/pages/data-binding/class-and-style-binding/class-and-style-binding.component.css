@@ -1,0 +1,115 @@
+
+* {
+  margin: 0;
+}
+
+select {
+  font-size: 16px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.button {
+  text-align: center;
+  border-color: black;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(145, 145, 145);
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(58, 58, 58);
+  transition: 1s;
+  color: rgb(255, 255, 255);
+}
+
+.select {
+  border-color: black;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(145, 145, 145);
+  margin-left: 20%;
+  cursor: pointer;
+}
+
+select:hover {
+  background-color: rgb(58, 58, 58);
+  transition: 1s;
+  border-color: #DB2B39;
+  color: rgb(255, 255, 255);
+}
+
+.info {
+  margin-left: 10%;
+  width: 80%;
+  padding: .75rem 1.25rem;
+  background-color: #ADACB5;
+  color: #ffffff;
+  font-size: 25px;
+  border: 1px solid #000;
+  border-radius: 40px;
+  margin-bottom: 1rem;
+}
+
+.info-Pagani {
+  background-color: #2D3142;
+  border-color: #2D3142;
+  border-radius: 100px;
+}
+
+.info-Lexus {
+  background-color: #2D3142;
+  border-color: #2D3142;
+  border-radius: 100px;
+}
+
+.info-Mercedes {
+  background-color: #2D3142;
+  border-color: #2D3142;
+  border-radius: 100px;
+}
+
+.info-Ferrari {
+  background-color: #2D3142;
+  border-color: #2D3142;
+  border-radius: 100px;
+}
+
+.info-Apollo {
+  background-color: #2D3142;
+  border-color: #2D3142;
+  border-radius: 100px;
+}
+
+.info-Koenigsegg {
+  background-color: #2D3142;
+  border-color: #2D3142;
+  border-radius: 100px;
+}
+
+.arrow {
+  border-radius: 50%;
+  background-color: #d0d1d6;
+  margin-left: 2%;
+  height: 50px;
+  width: 50px;
+}
+
+.name {
+  position: absolute;
+  margin-top: -3.5%;
+  margin-left: 6%;
+  text-align: center;
+}
+
+.cars {
+  border-radius: 20px;
+  margin-left: 30%;
+  align-items: center;
+  height: 40%;
+  width: 40%;
+}

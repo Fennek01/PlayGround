@@ -1,0 +1,249 @@
+.Body{
+    background-color: #FABC3C;
+    font-family: 'Inter', sans-serif;
+}
+
+.corpo{ 
+    background-color: #D8D5DB;
+    width: 75%;
+    height:75%;
+    position:absolute;
+    top:15%;
+    left: 13%;
+    border-radius: 1.5%;
+    -webkit-box-shadow: 9px 7px 5px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(0, 0, 0, 0.77);
+    box-shadow: 9px 7px 5px rgba(43, 43, 43, 0.77);
+}
+
+.title{
+    color: #2D3142;
+    position: absolute;
+    top: 16%;
+    left: 43%;
+}
+
+.divisor {
+    height: 0.2%;
+    width: 50%;
+    top: 22%;
+    left: 25%;
+    background-color: #DB2B39;
+    position: absolute;
+}
+
+.EmailLogin{
+    position: absolute;
+    top: 26%;
+    left:15.5%;
+}
+.EmailLoginInput{
+    background-color: #EFEFEF;
+    position: absolute;
+    top: 30%;
+    left:15.2%;
+    height: 6%;
+    width: 20%;
+    border-left-width: 4px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left-color: #DB2B39;
+    border-style: solid;
+}
+::placeholder {
+    color: #2D3142;
+}
+.senha{
+    position: absolute;
+    top: 39.3%;
+    left:15.5%;
+}
+.senhaLoginInput{
+    background-color: #EFEFEF;
+    position:absolute;
+    top: 43.5%;
+    left:15.2%;
+    height: 6%;
+    width: 20%;
+    border-left-width: 4px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left-color: #DB2B39;
+    border-style: solid;
+}
+
+.NomeC {
+    position: absolute;
+    top: 53%;
+    left:15.5%;
+}
+
+.nomeCompletoInput {
+    background-color: #EFEFEF;
+    position:absolute;
+    top: 57%;
+    left:15.2%;
+    height: 6%;
+    width: 20%;
+    border-left-width: 4px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left-color: #DB2B39;
+    border-style: solid;
+}
+
+.Cidade{
+    position: absolute;
+    top: 26%;
+    left:39.6%;  
+}
+.cidadeInput{
+    background-color: #EFEFEF;
+    position: absolute;
+    top: 30%;
+    left:39.5%;
+    height: 6%;
+    width: 20%;
+    border-left-width: 4px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left-color: #DB2B39;
+    border-style: solid;
+}
+.Estado{
+    position: absolute;
+    top: 39.3%;
+    left:39.6%; 
+}
+.estadoInput{
+    background-color: #EFEFEF;
+    position:absolute;
+    top: 43.5%;
+    left:39.5%;
+    height: 6%;
+    width: 20%;
+    border-left-width: 4px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left-color: #DB2B39;
+    border-style: solid;
+}
+.Genero{
+    position: absolute;
+    top: 26%;
+    left:64.6%;
+}
+
+.generoInput1{
+    background-color: #EFEFEF;
+    position:absolute;
+    top: 30%;    
+    left: 64.5%; 
+    height: 4%;
+    width: 12%;
+    border-left-width: 4px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left-color: #DB2B39;
+    border-style: solid;
+}
+
+.idade{
+    position: absolute;
+    top: 38.3%;
+    left:64.6%; 
+}
+.idadeInput{
+    background-color: #EFEFEF;
+    position:absolute;
+    top: 43.5%;
+    left:64.5%; 
+    height: 6%;
+    width: 20%;
+    border-left-width: 4px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left-color: #DB2B39;
+    border-style: solid;
+}
+.Bairro{
+    position: absolute;
+    top: 53%;
+    left:39.6%;
+}
+.bairroInput{
+    background-color: #EFEFEF;
+    position:absolute;
+    top: 57%;
+    left:39.5%;
+    height: 6%;
+    width: 20%;
+    border-left-width: 4px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left-color: #DB2B39;
+    border-style: solid;
+}
+
+.Imagem{
+    position: absolute;
+    top: 53%;
+    left:64.6%; 
+}
+.imagemInput{
+    background-color: #EFEFEF;
+    position:absolute;
+    top: 57%;
+    left:64.5%; 
+    height: 6%;
+    width: 20%;
+    border-left-width: 4px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left-color: #DB2B39;
+    border-style: solid;
+}
+
+.buttonCadastro {
+    position:absolute;
+    top:70%;
+    left:43.5%;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 65px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .buttonCadastro:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .buttonCadastro:focus {
+    outline: none;
+  }
+  
+  .buttonCadastro {
+    background-image: linear-gradient(
+      to right,
+      #eb3941,
+      #f15e64,
+      #e14e53,
+      #e2373f
+    );
+    box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+  }

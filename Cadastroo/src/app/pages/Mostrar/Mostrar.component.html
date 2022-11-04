@@ -1,0 +1,36 @@
+<body class="Body">
+<div class="corpo"></div>
+    <h1 class="title">Cadastro Geral</h1>
+    <div clas="divisor"></div>
+        <h3 class="EmailLogin">Email:</h3>
+        <input type="text" class="EmailLoginInput" [(ngModel)]="email" placeholder="bgimv@email.com">
+        <h3 class="senha">Senha:</h3>
+        <input type="text"  [(ngModel)]="senha" name="senha" class="senhaLoginInput" placeholder="bgimv/123455">
+        <div class="divisor">
+        </div>
+        <h3 class="NomeC">Nome Completo:</h3>
+        <input type="text"  [(ngModel)]="nome" name="nome" class="nomeCompletoInput" placeholder="Gustavo Guilherme de Abreu">
+        <h3 class="Cidade">Cidade:</h3>
+        <input type="text" class="cidadeInput"  [(ngModel)]="cidade" name="cidade" placeholder="Jaraguá do Sul">
+        <h3 class="Estado">Estado:</h3>
+        <input type="text" class="estadoInput"  [(ngModel)]="estado" name="estado" placeholder="Santa Catarina">
+        <h3 class="Bairro">Bairro:</h3>
+        <input type="text" class="bairroInput"  [(ngModel)]="bairro" name="bairro" placeholder="Vieiras">
+        <h3 class="Genero">Gênero:</h3>
+        <select [(ngModel)]="genero" class="generoInput1">
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Outro">Outro</option>
+            <option value="Não Informou">Prefiro Não Informar</option>
+        </select>
+        <h3 class="idade">Idade:</h3>
+        <input type="text" class="idadeInput"  [(ngModel)]="idade" name="idade" placeholder="00">
+        <h3 class="Imagem">Link:</h3>
+        <input type="text" class="imagemInput"  [(ngModel)]="imagem" name="imagem" placeholder="Link">
+        <button type="submit" id="enviar" class="buttonCadastro" (click)="craftingTable()">Cadastrar</button>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap');
+    </style>
+    </body>

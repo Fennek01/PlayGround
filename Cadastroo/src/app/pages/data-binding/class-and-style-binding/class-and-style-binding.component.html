@@ -1,0 +1,55 @@
+<article>
+  <br>
+  <br>
+  <div class="info {{ select.value }}">
+    Melhores Carros Para Estabilidade Em Pista
+    <select class="select" #select (change)="0">
+      <option value="info-Pagani">Pagani Huayra R</option>
+      <option value="info-Lexus">Lexus LFA</option>
+      <option value="info-Mercedes">Mercedes AMG One</option>
+      <option value="info-Ferrari">Ferrari LaFerrari FXX-K Evo</option>
+      <option value="info-Apollo">Apollo IE</option>
+      <option value="info-Koenigsegg">Koenigsegg Jesko Absolut</option>
+    </select>
+  </div>
+  <div class="info" [class.info-Pagani]="select.value === 'info-Pagani'">
+    <img class="arrow" src="https://static.vecteezy.com/system/resources/previews/009/350/952/non_2x/arrow-icon-arrows-sign-black-arrows-free-png.png">
+    <p class="name">Pagani Huayra R</p>
+    <div [style.display]="select.value === 'info-Pagani' ? 'block' : 'none'">
+      <img class="cars" src="https://www.razaoautomovel.com/wp-content/uploads/2021/03/Pagani-Huayra-R-8_925x520_acf_cropped.jpg" alt=""></div>
+  </div>
+  <div class="info" [class.info-Lexus]="select.value === 'info-Lexus'">
+    <img class="arrow" src="https://static.vecteezy.com/system/resources/previews/009/350/952/non_2x/arrow-icon-arrows-sign-black-arrows-free-png.png">
+    <p class="name">Lexus LFA</p>
+    <div [style.display]="select.value === 'info-Lexus' ? 'block' : 'none'">
+      <img class="cars" src="https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/10q1/319788/2012-lexus-lfa-instrumented-test-car-and-driver-photo-338053-s-original.jpg?crop=1.00xw:0.819xh;0,0.0682xh&resize=1200:*" alt=""></div>
+  </div>
+  <div class="info" [class.info-Mercedes]="select.value === 'info-Mercedes'">
+    <img class="arrow" src="https://static.vecteezy.com/system/resources/previews/009/350/952/non_2x/arrow-icon-arrows-sign-black-arrows-free-png.png">
+    <p class="name">Mercedes AMG One</p>
+    <div [style.display]="select.value === 'info-Mercedes' ? 'block' : 'none'">
+      <img class="cars" src="https://static.cedscdn.it/photos/MED_HIGH/85/14/6868514_12201211_tv7ytiubnwed.jpg" alt=""></div>
+  </div>
+  <div class="info" [class.info-Ferrari]="select.value === 'info-Ferrari'">
+    <img class="arrow" src="https://static.vecteezy.com/system/resources/previews/009/350/952/non_2x/arrow-icon-arrows-sign-black-arrows-free-png.png">
+    <p class="name">Ferrari LaFerrari FXX-K Evo</p>
+    <div [style.display]="select.value === 'info-Ferrari' ? 'block' : 'none'">
+      <img class="cars" src="https://i.ytimg.com/vi/-QC3VuwMOSA/maxresdefault.jpg" alt=""></div>
+  </div>
+  <div class="info" [class.info-Apollo]="select.value === 'info-Apollo'">
+    <img class="arrow" src="https://static.vecteezy.com/system/resources/previews/009/350/952/non_2x/arrow-icon-arrows-sign-black-arrows-free-png.png">
+    <p class="name">Apollo IE</p>
+    <div [style.display]="select.value === 'info-Apollo' ? 'block' : 'none'">
+      <img class="cars" src="https://www.carscoops.com/wp-content/uploads/2021/07/Apollo-IE.jpg" alt=""></div>
+  </div>
+  <div class="info" [class.info-Koenigsegg]="select.value === 'info-Koenigsegg'">
+    <img class="arrow" src="https://static.vecteezy.com/system/resources/previews/009/350/952/non_2x/arrow-icon-arrows-sign-black-arrows-free-png.png">
+    <p class="name">Koenigsegg Jesko Absolut</p>
+    <div [style.display]="select.value === 'info-Koenigsegg' ? 'block' : 'none'">
+        <img class="cars" src="https://paultan.org/image/2020/03/Koenigsegg-Jesko-Absolut-1.jpg" alt=""></div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+</article>

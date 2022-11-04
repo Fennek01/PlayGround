@@ -1,0 +1,24 @@
+<body>
+  <div class="subNav"></div>
+<header class="header">
+  <nav class="nav">
+        <a routerLink="/"><button class="button">Home</button></a>
+        <a routerLink="/data-binding"><button class="button">Área De Testes</button></a>
+        <a routerLink="/Mostrar"><button class="button">Cadastro</button></a>
+        <a routerLink="/Testes"><button class="button">Diretivas</button></a>
+        <a routerLink="a"><button class="button">Aberta</button></a>
+        <a routerLink="a"><button class="button">Aberta</button></a>
+  </nav>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>
+<div class="subFooter"></div>
+<footer class="footer">
+  <app-input style="color: #ffffff" [(valor)]="appValor">{{appValor}}</app-input></footer>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap');
+</style>
+</body>
+
