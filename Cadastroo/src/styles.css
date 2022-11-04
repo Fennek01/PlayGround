@@ -4,8 +4,12 @@
     margin: 0;
 }
 
+*::-webkit-scrollbar-corner {
+    width: 100px;
+}
+
 *::-webkit-scrollbar {
-    width: 0.5rem;
+    width: 0.2rem;
 }
 
 *::-webkit-scrollbar-track {

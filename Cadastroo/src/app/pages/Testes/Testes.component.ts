@@ -42,19 +42,5 @@ export class TestesComponent {
     isKoch(): boolean    {
         return this.nome === 'Koch MP7'; 
     }
-    
-    escolherCor():string {
-        if (this.isVector()){
-            return 'red'
-        } else if (this.isBarret()) {
-            return 'blue'
-        } else if (this.isSpas()) {
-            return 'green'
-        } else if (this.isScar()) {
-            return 'yellow'
-        } else if (this.isKoch()) {
-            return 'orange'
-        } 
-    }
 
 }

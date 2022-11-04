@@ -3,10 +3,70 @@
     height: 100%;
 }
 
-.ngFor {
-    text-align: center;
+.inputInfo {
+    background-color: #ADACB5;
+    color: #ffffff;
+    border-radius: 50px;
+    margin-top: 7%;
+    margin-left: 20%;
+    width: 40%;
+    height: 3%;
 }
 
-.center {
-    margin-left: 47%;
+.back {
+    width: 40%;
+    height: 80px;
+    border-radius: 100px;
+    background-color: #2D3142;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 29%;
+    margin-right: 29%;
+    margin-bottom: 2%;
+    color: #ffffff;
+  }
+
+.back1 {
+    position: absolute;
+    width: 40%;
+    height: 240px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    background-color: #ADACB5;
+    text-align: center;
+    margin-top: 2%;
+    margin-right: 29%;
+    margin-bottom: 2%;
+    color: #ffffff;     
 }
+
+.title {
+    position: absolute;
+    margin-left: 13.5%;
+    margin-top: 1.5%;
+  }
+
+.titleWeapon {
+    color: #ffffff;
+    font-size: large;
+    width: 40%;
+    height: 40%;
+}
+
+.backStyle1 {
+    width: 50%;
+    height: 1000px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    background-color: #2D3142;
+}
+
+.weapons {
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 3.5%;
+    width: 25%;
+    height: 30%;
+    border-radius: 50px;
+}
+

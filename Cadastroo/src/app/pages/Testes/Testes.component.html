@@ -1,12 +1,41 @@
 <diV class="margin"></diV>
-<p>Material Icon</p>
-<h1 class="ngFor">NgFor</h1>
+    <div class="back">
+        <h1 class="title">NgFor -  NgIf</h1>
+    </div>
 <br>
-<div>
-    <select [(ngModel)]="nome" class="center">
+<br>
+<div class="backStyle1">
+    <select [(ngModel)]="nome" class="inputInfo">
         <option *ngFor="let item of nomes; index as i" value="{{item}}">{{ item }}</option>
     </select>
-    - {{nome}}
+    <p [style.background-color]="escolherCor()" *ngIf="isVector(); else nomeNaoSelecionada">{{nome}}
+
+    </p>
+
+    <p [style.background-color]="escolherCor()" *ngIf="isScar(); else nomeNaoSelecionada">{{nome}}
+
+    </p>
+
+    <div class="" *ngIf="isBarret(); else nomeNaoSelecionada">
+        <p class="titleWeapon">{{nome}}</p>
+        <br>
+        <div class="back1"></div>
+        <img class="weapons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/M107_1.jpg/800px-M107_1.jpg">
+            <p class="info">
+                Barrett M82 é um fuzil de precisão antimaterial semiautomático que dispara um projétil de grosso calibre .50
+                BMG, com 12,7 mm de diâmetro. Foi desenvolvido pela Barrett Firearms Manufacturing a pedido do Exército 
+                Norte-Americano, que desejava um fuzil preciso e com alto poder de destruição, para cumprir o papel de 
+                arma antimaterial (ou seja, projetada não só para deter combatentes humanos, mas também para causar danos 
+                materiais, sejam em construções, veículos leves, carros de combate, veículos blindados, eventualmente 
+                aeronaves etc.) considerada uma das armas de fogo mais destruidoras da atualidade.
+            </p>
+    </div>
+    <p [style.background-color]="escolherCor()" *ngIf="isKoch(); else nomeNaoSelecionada">{{nome}}
+
+    </p>
+    <p  *ngIf="isSpas(); else nomeNaoSelecionada">{{nome}}
+
+    </p>
 </div>
 <br>
 <div>
@@ -22,12 +51,6 @@
 <div *ngFor="let foto of fotos">
 <input type="file" [(ngModel)]="foto.arquivo">
 </div>
-
-<p [style.background-color]="escolherCor()" *ngIf="isVector(); else nomeNaoSelecionada">{{nome}}</p>
-<p [style.background-color]="escolherCor()" *ngIf="isScar(); else nomeNaoSelecionada">{{nome}}</p>
-<p [style.background-color]="escolherCor()" *ngIf="isBarret(); else nomeNaoSelecionada">{{nome}}</p>
-<p [style.background-color]="escolherCor()" *ngIf="isKoch(); else nomeNaoSelecionada">{{nome}}</p>
-<p [style.background-color]="escolherCor()" *ngIf="isSpas(); else nomeNaoSelecionada">{{nome}}</p>
 
 <ng-template #nomeNaoSelecionada>
     <p style="opacity: none;"></p>
