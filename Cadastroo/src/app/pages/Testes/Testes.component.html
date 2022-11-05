@@ -9,11 +9,9 @@
         <option *ngFor="let item of nomes; index as i" value="{{item}}">{{ item }}</option>
     </select>
     <p [style.background-color]="escolherCor()" *ngIf="isVector(); else nomeNaoSelecionada">{{nome}}
-
     </p>
 
     <p [style.background-color]="escolherCor()" *ngIf="isScar(); else nomeNaoSelecionada">{{nome}}
-
     </p>
 
     <div class="" *ngIf="isBarret(); else nomeNaoSelecionada">
@@ -37,19 +35,33 @@
 
     </p>
 </div>
-<br>
-<div>
-    <p class="ngFor" *ngFor="let item of nomes; index as i">
-        {{ i + 1}}
-        {{ item }}
-    </p>
-</div>
-<br>
-<button (click)="adicionarFotos()">adicionar</button>
-<button (click)="mostrarFotos()">Mostrar</button>
-
-<div *ngFor="let foto of fotos">
-<input type="file" [(ngModel)]="foto.arquivo">
+<div class="frontStyle"></div>
+<div class="backStyle3"></div>
+<div class="backStyle2">
+    <div>
+        <p class="ngFor" *ngFor="let item of nomes; index as i">
+            {{ i + 1}}
+            {{ item }}
+        </p>
+    </div>
+    <br>
+    <button (click)="adicionarFotos()">adicionar</button>
+    <button (click)="mostrarFotos()">Mostrar</button>
+    <div *ngFor="let foto of fotos">
+    <input type="file" [(ngModel)]="foto.arquivo">
+    <button (click)="adicionarFotos()">adicionar</button>
+    <button (click)="mostrarFotos()">Mostrar</button>
+    <div *ngFor="let foto of fotos">
+    <input type="file" [(ngModel)]="foto.arquivo">
+    <button (click)="adicionarFotos()">adicionar</button>
+    <button (click)="mostrarFotos()">Mostrar</button>
+    <div *ngFor="let foto of fotos">
+    <input type="file" [(ngModel)]="foto.arquivo">
+    <button (click)="adicionarFotos()">adicionar</button>
+    <button (click)="mostrarFotos()">Mostrar</button>
+    <div *ngFor="let foto of fotos">
+    <input type="file" [(ngModel)]="foto.arquivo">
+    </div>
 </div>
 
 <ng-template #nomeNaoSelecionada>
