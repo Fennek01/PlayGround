@@ -1,0 +1,100 @@
+.background1 {
+    background-color: #DB2B39;
+    width: 600px;
+    height: 600px;
+    margin-left: 29%;
+    margin-right: 4.5%;
+    border-radius: 50px;
+}
+
+.background2 {
+    background-color: #2D3142;
+    width: 500px;
+    height: 500px;
+    margin-left: 8%;
+    border-radius: 50px;
+}
+
+.margin {
+    margin-bottom: 40px;
+    height: 100%;
+}
+
+.back {
+    width: 40%;
+    height: 80px;
+    border-radius: 100px;
+    background-color: #2D3142;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 30.4%;
+    margin-bottom: 2%;
+    color: #ffffff;
+  }
+
+  .title {
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 1.5%;
+  }
+
+  .marginBottom {
+    margin-bottom: 10%;
+  }
+
+  .line1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: #ffffff;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .line2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: #ffffff;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .line3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: #ffffff;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .divisorLine1 {
+    width: 5px;
+    height: 163px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+
+  .divisorLine2 {
+    width: 500px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+
+  .table {
+    height: 50px;
+  }
+
+  .img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .button {
+    cursor: pointer;
+    background-color: #2D3142;
+    border: none;
+  }

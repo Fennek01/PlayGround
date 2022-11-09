@@ -4,6 +4,7 @@ import { HomeComponent } from "./pages/home/home.component";
 import { MostrarComponent } from "./pages/Mostrar/Mostrar.component";
 import { DataBindingComponent } from './pages/data-binding/data-binding.component';
 import { TestesComponent } from "./pages/Testes/Testes.component";
+import { JogoVelhaComponent } from "./pages/JogoVelha/JogoVelha.component";
 
 const routes: Route[] = [
     {
@@ -17,6 +18,10 @@ const routes: Route[] = [
     {
         path: 'Mostrar',
         component: MostrarComponent
+    },
+    {
+        path: 'JogoVelha',
+        component: JogoVelhaComponent
     },
     {
         path: 'Testes',

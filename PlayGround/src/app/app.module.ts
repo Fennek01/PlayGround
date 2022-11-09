@@ -11,6 +11,7 @@ import { DivisorModule } from './pages/data-binding/divisor/divisor.module';
 import { TestesModule } from './pages/Testes/Testes.module';
 import { BotaoComponent } from './pages/botao/botao.component';
 import { InputComponent } from './pages/input/input.component';
+import { JogoVelhaModule } from './pages/JogoVelha/JogoVelha.module';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import { InputComponent } from './pages/input/input.component';
     AppRountingModule,
     DivisorModule,
     TestesModule,
-    MostrarModule
+    MostrarModule,
+    JogoVelhaModule
   ],
   declarations: [
     AppComponent,
