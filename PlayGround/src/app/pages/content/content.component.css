@@ -1,0 +1,28 @@
+.margin {
+    margin-bottom: 40px;
+    height: 100%;
+}
+
+.colorTrade {
+    position: relative;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border: solid 2px #ddd;
+    border-radius: 40px;
+}
+
+.colorInput {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    width: 56px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .colorTrade:hover {
+    transition: 1s;
+    border-color: rgb(0, 136, 255);
+  }

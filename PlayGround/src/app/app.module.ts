@@ -12,6 +12,9 @@ import { TestesModule } from './pages/Testes/Testes.module';
 import { BotaoComponent } from './pages/botao/botao.component';
 import { InputComponent } from './pages/input/input.component';
 import { JogoVelhaModule } from './pages/JogoVelha/JogoVelha.module';
+import { ConteudoCustomizadoComponent } from './pages/content/conteudo-customizado/conteudo-customizado.component';
+import { ContentComponent } from './pages/content/content.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   imports: [
@@ -23,12 +26,15 @@ import { JogoVelhaModule } from './pages/JogoVelha/JogoVelha.module';
     DivisorModule,
     TestesModule,
     MostrarModule,
-    JogoVelhaModule
+    JogoVelhaModule,
+    HttpClientModule
   ],
   declarations: [
     AppComponent,
     BotaoComponent,
-    InputComponent
+    InputComponent,
+    ConteudoCustomizadoComponent,
+    ContentComponent
   ],
   exports: [],
   providers: [],

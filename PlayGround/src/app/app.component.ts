@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { AppService } from './app.service';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,13 @@ import { Component, Input } from '@angular/core';
 })
 export class AppComponent {
   @Input()
-  title = 'Cadastro';
+  title = '';
   appValor = '';
+
+  constructor(appService: AppService) {
+    appService.getOlaMundo().subscribe((cotacao) => {
+      console.log(cotacao)
+    })
+  }
+
 }
