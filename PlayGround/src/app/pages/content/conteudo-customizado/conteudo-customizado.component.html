@@ -1,3 +1,5 @@
-<table>
-        <ng-content select="[tHead]"></ng-content>
-</table>
+<button class="button" (click)="abrir()" >Abrir Modal</button>
+        <div [style.opacity]="abrir()" class="modal" >
+                <ng-content></ng-content>
+                <button class="fechar" (click)="fechar()">X</button>
+        </div>
