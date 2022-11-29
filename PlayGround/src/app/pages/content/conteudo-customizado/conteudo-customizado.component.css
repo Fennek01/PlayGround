@@ -11,16 +11,16 @@
     height: 300px;
     margin-left: 40%;
     margin-right: 40%;
-    z-index: 11;
 }
+
 
 .button {
     background-color: #2D3142;
     color: #ffffff;
     border-color: #ffffff;
     border-radius: 10px;
-    margin-left: 48%;
     margin-bottom: 1%;
+    z-index: 150;
 }
 
 .fechar {
