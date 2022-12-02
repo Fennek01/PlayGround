@@ -12,6 +12,25 @@
     border-radius: 40px;
 }
 
+.inputInfo {
+  position: absolute;
+  margin-left: 0.5%;
+  margin-top: -27%;
+}
+
+.analisar {
+  border-radius: 10%;
+  margin-left: 70%;
+  margin-top: 85%;
+}
+
+.imagem {
+  position: absolute;
+  height: 300px;
+  width: 200px;
+  z-index: 999;
+}
+
 .colorInput {
     position: absolute;
     right: -8px;

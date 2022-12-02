@@ -8,14 +8,14 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 })
 export class ConteudoCustomizadoComponent {
 
-  modalPrin = 1;
+  modalPrin = 0;
 
   abrirPrin() {
-    if (this.modalPrin == 0) {
-      this.modalPrin = 1;
-      return this.modalPrin;
-    } else if (this.modalPrin == 1) {
+    if (this.modalPrin == 1) {
       this.modalPrin = 0;
+      return this.modalPrin;
+    } else if (this.modalPrin == 0) {
+      this.modalPrin = 1;
       return this.modalPrin;
     }
   }

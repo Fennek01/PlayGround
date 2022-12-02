@@ -12,7 +12,7 @@ export class AppService{
     }
 
     getOlaMundo(): Observable<any> {
-        return this.httpClient.get('https://economia.awesomeapi.com.br/json/last/USD-BRL');
+        return this.httpClient.get('https://db.ygoprodeck.com/api/v7/cardinfo.php?archetype=Blue-Eyes');
     }
 
 }
