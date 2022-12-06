@@ -1,15 +1,15 @@
 <div class="margin"></div>
 <p #texto>
-  Olá Mundo!
+  .
 </p>
 <div class="colorTrade">
   <input class="colorInput" #color type="color">
 </div>
   <Custom #modal>
-    <select [(ngModel)]="nome" class="inputInfo">
-      <option *ngFor="let dados of cotacao1" value="{{dados}}">{{dados.name}}</option>
+    <select [(ngModel)]="id" class="inputInfo">
+      <option class="dados" *ngFor="let dados of cotacao1" value="{{dados.id}}">{{dados.name}}</option>
     </select>
     <button class="analisar" (click)="analise()">Análise</button>
       <img class="imagem" src="{{img}}">
   </Custom>
-<button type="submit" (click)="Enviar()">Enviar</button>
+<button class="enviar" type="submit" (click)="Enviar()">Enviar</button>

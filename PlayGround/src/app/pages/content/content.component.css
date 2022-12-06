@@ -13,15 +13,40 @@
 }
 
 .inputInfo {
+  color: #ffffff;
+  border-color: #DB2B39;
+  background-color: #2D3142;
   position: absolute;
   margin-left: 0.5%;
-  margin-top: -27%;
+  margin-top: -95%;
+}
+
+.title  {
+  position: absolute;
+}
+
+.enviar {
+  position: absolute;
+  color: #ffffff;
+  background-color: #2D3142;
+  border-color: #ffffff;
+  border-radius: 10px;
+  margin-left: 3.5%;
+  margin-top: -2.5%;
 }
 
 .analisar {
-  border-radius: 10%;
+  color: #ffffff;
+  background-color: #2D3142;
+  border-color: #ffffff;
+  border-radius: 10px;
   margin-left: 70%;
-  margin-top: 85%;
+  margin-top: 100%;
+}
+
+.dados {
+  background-color: #2D3142;
+  color: #ffffff;
 }
 
 .imagem {

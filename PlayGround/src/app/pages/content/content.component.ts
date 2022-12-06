@@ -16,7 +16,7 @@ export class ContentComponent implements OnInit {
     this.meuParagrafo.nativeElement.style.backgroundColor = this.cor.nativeElement.value
   }
 
-  nome: string;
+  id: string;
   img: string;
 
   cotacao1: Object[] = [];
@@ -36,8 +36,8 @@ export class ContentComponent implements OnInit {
 
   analise() {
     this.cotacao1.forEach(carta => {
-      console.log(this.nome)
-      if (this.nome == carta) {
+      console.log(this.id)
+      if (this.id == carta["id"]) {
         this.img = carta["card_images"]["0"]["image_url"]
         console.log(this.img)
       } 
